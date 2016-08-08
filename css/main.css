@@ -1,0 +1,67 @@
+/*header*/
+.fondoHead {
+	background-image: url(../img/background/hero.jpg);
+	padding: 0 2% 60% 2%;
+}
+/*nav*/
+li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px;
+}
+a {
+	color: #FFFFFF;
+}
+.logoPrim {
+	float: right;
+}
+.starLog {
+	width: 5%;
+	height: auto;
+}
+/*tamaño*/
+.boldTex {
+	border: 2px;
+}
+
+/*iconos*/
+.icono {
+	width: 15%;
+	height: auto;
+}
+.iconoInf {
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+/*botones*/
+button {
+	border: none;
+	padding: 5px;
+	width: 25%;
+	height: auto;
+
+}
+
+.botonOur {
+	background-color: #6E6E6E;
+	color: #FFFFFF; 
+}
+
+.botonLearn {
+	background-color: #6E6E6E;
+	color: #FFFFFF; 
+	opacity: 0.5;
+}
+.imgfeatures {
+	width: 100%;
+	height: auto;
+}
+
+/*fondos secciones*/
+.fondoFeature {
+	background-color: #E6E6E6;
+	padding: 0 5% 5% 5%;
+
+}
