@@ -52,10 +52,13 @@ a.enlacePort:hover {
 	font-size: 250%;
 }
 .texGran {
-	font-size: 380%;
+	font-size: 370%;
 }
 .texTitu {
 	font-size: 110%;
+}
+span {
+	font-weight: 800;
 }
 
 /*iconos*/
@@ -91,13 +94,13 @@ button {
 
 .botonOur {
 	background-color: #6E6E6E;
+	height: 80%;
 	
 }
-
-.botonLearn {
-	background-color: #6E6E6E; 
-	opacity: 0.5;
+.botonOur:hover {
+	background-color: rgba(0,0,0,0.1);
 }
+
 .botonPorfol {
 	background-color: #FFFFFF;
 	color: #000000;
