@@ -1,17 +1,41 @@
+*{
+	font-family: 'Open Sans' ;
+}
 /*header*/
 .fondoHead {
 	background-image: url(../img/background/hero.jpg);
 	padding: 0 2% 60% 2%;
+	height: 400px;
+	
+}
+.blackFondo {
+	background-color: rgba(0,0,9,0.4);
+	width: 100%;
+	height: 808px;
 }
 /*nav*/
 li {
 	display: inline-block;
-	text-decoration: none;
-	padding: 5px;
+	padding: 15px;
+}
+li .enlace{
+	padding-left: 20px;
 }
 a {
 	color: #FFFFFF;
+	text-decoration: none;
 }
+a.enlace:hover {
+    color: #04B4AE;
+}
+a.enlacePort:hover {
+    background-color: #04B4AE;
+}
+
+
+.texLogo {
+	display: inline-block;
+}		
 .logoPrim {
 	float: right;
 }
@@ -19,9 +43,19 @@ a {
 	width: 5%;
 	height: auto;
 }
+.padTex {
+	padding-top: 20%;
+
+}
 /*tamaño*/
-.boldTex {
-	border: 2px;
+.fonBig {
+	font-size: 250%;
+}
+.texGran {
+	font-size: 380%;
+}
+.texTitu {
+	font-size: 110%;
 }
 
 /*iconos*/
@@ -30,38 +64,79 @@ a {
 	height: auto;
 }
 .iconoInf {
-	width: 40%;
+	width: 50%;
 	height: auto;
 	float: left;
+}
+/*acomodo*/
+.acomodoLados {
+	padding: 0 15%;
+
+}
+.acomodoLados2 {
+	padding: 0 12%;
+}
+.acomodoaba {
+	padding-bottom: 10%;
 }
 
 /*botones*/
 button {
 	border: none;
-	padding: 5px;
+	padding: 10px;
 	width: 25%;
-	height: auto;
-
+	height: 25%;
+    color: #FFFFFF;
 }
 
 .botonOur {
 	background-color: #6E6E6E;
-	color: #FFFFFF; 
+	
 }
 
 .botonLearn {
-	background-color: #6E6E6E;
-	color: #FFFFFF; 
+	background-color: #6E6E6E; 
 	opacity: 0.5;
+}
+.botonPorfol {
+	background-color: #FFFFFF;
+	color: #000000;
+	width: 1170px;
+	height: 170px;
+	margin-right: 5px;
+	padding: 10px;
+}
+.botonLoad {
+	background-color: #0B3861;
+	width: 15%;
+	height: 100%;
+
+	
 }
 .imgfeatures {
 	width: 100%;
 	height: auto;
+}
+img {
+	width: 100%;
 }
 
 /*fondos secciones*/
 .fondoFeature {
 	background-color: #E6E6E6;
 	padding: 0 5% 5% 5%;
+	width: 100%;
+
+}
+.fondoPortfol {
+	background-color: #E6E6E6;
+	padding: 0 5%;
+	width: 100%;
+
+}
+.fondoFotos {
+	background-color: #FFFFFF;
+	padding: 5%;
+	width: 100%;
 
 }
